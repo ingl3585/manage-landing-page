@@ -2,6 +2,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 2.5rem 2rem;
 }
 
 .nav-links {
@@ -10,6 +11,17 @@ nav {
 }
 
 .single-nav-link {
+    font-size: 0.85rem;
     color: black;
     text-decoration: none;
+}
+
+.nav-btn {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    font-size: 0.85rem;
+    padding: 0.6rem 1.25rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
 }
